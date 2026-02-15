@@ -1,4 +1,4 @@
-// Wait until DOM loads completely
+const BASE_URL = "https://health-backend-1-3iyq.onrender.com";// Wait until DOM loads completely
 document.addEventListener("DOMContentLoaded", function () {
 
     const queuePage = document.getElementById("queuePage");
@@ -55,5 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
             showPage("queue");
         });
     }
+
 
 });
